@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F47437210D7E57008771E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F47436210D7E57008771E7 /* AppDelegate.m */; };
+		A5F4743A210D7E57008771E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F47439210D7E57008771E7 /* ViewController.m */; };
+		A5F4743D210D7E57008771E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F4743B210D7E57008771E7 /* Main.storyboard */; };
+		A5F4743F210D7E59008771E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F4743E210D7E59008771E7 /* Assets.xcassets */; };
+		A5F47442210D7E59008771E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F47440210D7E59008771E7 /* LaunchScreen.storyboard */; };
+		A5F47445210D7E59008771E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F47444210D7E59008771E7 /* main.m */; };
+		A5F4744F210D7E59008771E7 /* RefreshChameleonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F4744E210D7E59008771E7 /* RefreshChameleonTests.m */; };
+		A5F4745A210D7E59008771E7 /* RefreshChameleonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F47459210D7E59008771E7 /* RefreshChameleonUITests.m */; };
+		A5F4746D210D8128008771E7 /* UIScrollView+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F4746C210D8128008771E7 /* UIScrollView+Chameleon.m */; };
+		A5F47470210D8252008771E7 /* ChameleonBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F4746F210D8252008771E7 /* ChameleonBaseView.m */; };
+		A5F47473210DBF63008771E7 /* ChamleonHeadBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F47472210DBF63008771E7 /* ChamleonHeadBaseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F4744B210D7E59008771E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F4742A210D7E57008771E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F47431210D7E57008771E7;
+			remoteInfo = RefreshChameleon;
+		};
+		A5F47456210D7E59008771E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F4742A210D7E57008771E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F47431210D7E57008771E7;
+			remoteInfo = RefreshChameleon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F47432210D7E57008771E7 /* RefreshChameleon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshChameleon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F47435210D7E57008771E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5F47436210D7E57008771E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5F47438210D7E57008771E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5F47439210D7E57008771E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5F4743C210D7E57008771E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F4743E210D7E59008771E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F47441210D7E59008771E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F47443210D7E59008771E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F47444210D7E59008771E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5F4744A210D7E59008771E7 /* RefreshChameleonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefreshChameleonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F4744E210D7E59008771E7 /* RefreshChameleonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshChameleonTests.m; sourceTree = "<group>"; };
+		A5F47450210D7E59008771E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F47455210D7E59008771E7 /* RefreshChameleonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefreshChameleonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F47459210D7E59008771E7 /* RefreshChameleonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshChameleonUITests.m; sourceTree = "<group>"; };
+		A5F4745B210D7E59008771E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F4746B210D8128008771E7 /* UIScrollView+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Chameleon.h"; sourceTree = "<group>"; };
+		A5F4746C210D8128008771E7 /* UIScrollView+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Chameleon.m"; sourceTree = "<group>"; };
+		A5F4746E210D8252008771E7 /* ChameleonBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChameleonBaseView.h; sourceTree = "<group>"; };
+		A5F4746F210D8252008771E7 /* ChameleonBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChameleonBaseView.m; sourceTree = "<group>"; };
+		A5F47471210DBF63008771E7 /* ChamleonHeadBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChamleonHeadBaseView.h; sourceTree = "<group>"; };
+		A5F47472210DBF63008771E7 /* ChamleonHeadBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChamleonHeadBaseView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F4742F210D7E57008771E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F47447210D7E59008771E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F47452210D7E59008771E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F47429210D7E57008771E7 = {
+			isa = PBXGroup;
+			children = (
+				A5F47434210D7E57008771E7 /* RefreshChameleon */,
+				A5F4744D210D7E59008771E7 /* RefreshChameleonTests */,
+				A5F47458210D7E59008771E7 /* RefreshChameleonUITests */,
+				A5F47433210D7E57008771E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F47433210D7E57008771E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F47432210D7E57008771E7 /* RefreshChameleon.app */,
+				A5F4744A210D7E59008771E7 /* RefreshChameleonTests.xctest */,
+				A5F47455210D7E59008771E7 /* RefreshChameleonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F47434210D7E57008771E7 /* RefreshChameleon */ = {
+			isa = PBXGroup;
+			children = (
+				A5F47467210D7E82008771E7 /* Chameleon */,
+				A5F47435210D7E57008771E7 /* AppDelegate.h */,
+				A5F47436210D7E57008771E7 /* AppDelegate.m */,
+				A5F47438210D7E57008771E7 /* ViewController.h */,
+				A5F47439210D7E57008771E7 /* ViewController.m */,
+				A5F4743B210D7E57008771E7 /* Main.storyboard */,
+				A5F4743E210D7E59008771E7 /* Assets.xcassets */,
+				A5F47440210D7E59008771E7 /* LaunchScreen.storyboard */,
+				A5F47443210D7E59008771E7 /* Info.plist */,
+				A5F47444210D7E59008771E7 /* main.m */,
+			);
+			path = RefreshChameleon;
+			sourceTree = "<group>";
+		};
+		A5F4744D210D7E59008771E7 /* RefreshChameleonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4744E210D7E59008771E7 /* RefreshChameleonTests.m */,
+				A5F47450210D7E59008771E7 /* Info.plist */,
+			);
+			path = RefreshChameleonTests;
+			sourceTree = "<group>";
+		};
+		A5F47458210D7E59008771E7 /* RefreshChameleonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F47459210D7E59008771E7 /* RefreshChameleonUITests.m */,
+				A5F4745B210D7E59008771E7 /* Info.plist */,
+			);
+			path = RefreshChameleonUITests;
+			sourceTree = "<group>";
+		};
+		A5F47467210D7E82008771E7 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				A5F47468210D7E82008771E7 /* Category */,
+				A5F47469210D7E82008771E7 /* Model */,
+				A5F4746A210D7E82008771E7 /* View */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		A5F47468210D7E82008771E7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4746B210D8128008771E7 /* UIScrollView+Chameleon.h */,
+				A5F4746C210D8128008771E7 /* UIScrollView+Chameleon.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A5F47469210D7E82008771E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5F4746A210D7E82008771E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4746E210D8252008771E7 /* ChameleonBaseView.h */,
+				A5F4746F210D8252008771E7 /* ChameleonBaseView.m */,
+				A5F47471210DBF63008771E7 /* ChamleonHeadBaseView.h */,
+				A5F47472210DBF63008771E7 /* ChamleonHeadBaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F47431210D7E57008771E7 /* RefreshChameleon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F4745E210D7E59008771E7 /* Build configuration list for PBXNativeTarget "RefreshChameleon" */;
+			buildPhases = (
+				A5F4742E210D7E57008771E7 /* Sources */,
+				A5F4742F210D7E57008771E7 /* Frameworks */,
+				A5F47430210D7E57008771E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefreshChameleon;
+			productName = RefreshChameleon;
+			productReference = A5F47432210D7E57008771E7 /* RefreshChameleon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5F47449210D7E59008771E7 /* RefreshChameleonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F47461210D7E59008771E7 /* Build configuration list for PBXNativeTarget "RefreshChameleonTests" */;
+			buildPhases = (
+				A5F47446210D7E59008771E7 /* Sources */,
+				A5F47447210D7E59008771E7 /* Frameworks */,
+				A5F47448210D7E59008771E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F4744C210D7E59008771E7 /* PBXTargetDependency */,
+			);
+			name = RefreshChameleonTests;
+			productName = RefreshChameleonTests;
+			productReference = A5F4744A210D7E59008771E7 /* RefreshChameleonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5F47454210D7E59008771E7 /* RefreshChameleonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F47464210D7E59008771E7 /* Build configuration list for PBXNativeTarget "RefreshChameleonUITests" */;
+			buildPhases = (
+				A5F47451210D7E59008771E7 /* Sources */,
+				A5F47452210D7E59008771E7 /* Frameworks */,
+				A5F47453210D7E59008771E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F47457210D7E59008771E7 /* PBXTargetDependency */,
+			);
+			name = RefreshChameleonUITests;
+			productName = RefreshChameleonUITests;
+			productReference = A5F47455210D7E59008771E7 /* RefreshChameleonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F4742A210D7E57008771E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RavenZ;
+				TargetAttributes = {
+					A5F47431210D7E57008771E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A5F47449210D7E59008771E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5F47431210D7E57008771E7;
+					};
+					A5F47454210D7E59008771E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5F47431210D7E57008771E7;
+					};
+				};
+			};
+			buildConfigurationList = A5F4742D210D7E57008771E7 /* Build configuration list for PBXProject "RefreshChameleon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F47429210D7E57008771E7;
+			productRefGroup = A5F47433210D7E57008771E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F47431210D7E57008771E7 /* RefreshChameleon */,
+				A5F47449210D7E59008771E7 /* RefreshChameleonTests */,
+				A5F47454210D7E59008771E7 /* RefreshChameleonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F47430210D7E57008771E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F47442210D7E59008771E7 /* LaunchScreen.storyboard in Resources */,
+				A5F4743F210D7E59008771E7 /* Assets.xcassets in Resources */,
+				A5F4743D210D7E57008771E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F47448210D7E59008771E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F47453210D7E59008771E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F4742E210D7E57008771E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F4743A210D7E57008771E7 /* ViewController.m in Sources */,
+				A5F47470210D8252008771E7 /* ChameleonBaseView.m in Sources */,
+				A5F47473210DBF63008771E7 /* ChamleonHeadBaseView.m in Sources */,
+				A5F47445210D7E59008771E7 /* main.m in Sources */,
+				A5F4746D210D8128008771E7 /* UIScrollView+Chameleon.m in Sources */,
+				A5F47437210D7E57008771E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F47446210D7E59008771E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F4744F210D7E59008771E7 /* RefreshChameleonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F47451210D7E59008771E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F4745A210D7E59008771E7 /* RefreshChameleonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F4744C210D7E59008771E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F47431210D7E57008771E7 /* RefreshChameleon */;
+			targetProxy = A5F4744B210D7E59008771E7 /* PBXContainerItemProxy */;
+		};
+		A5F47457210D7E59008771E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F47431210D7E57008771E7 /* RefreshChameleon */;
+			targetProxy = A5F47456210D7E59008771E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5F4743B210D7E57008771E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F4743C210D7E57008771E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F47440210D7E59008771E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F47441210D7E59008771E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F4745C210D7E59008771E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5F4745D210D7E59008771E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F4745F210D7E59008771E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RefreshChameleon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RavenZ.RefreshChameleon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F47460210D7E59008771E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RefreshChameleon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RavenZ.RefreshChameleon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5F47462210D7E59008771E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RefreshChameleonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RavenZ.RefreshChameleonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RefreshChameleon.app/RefreshChameleon";
+			};
+			name = Debug;
+		};
+		A5F47463210D7E59008771E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RefreshChameleonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RavenZ.RefreshChameleonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RefreshChameleon.app/RefreshChameleon";
+			};
+			name = Release;
+		};
+		A5F47465210D7E59008771E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RefreshChameleonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RavenZ.RefreshChameleonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RefreshChameleon;
+			};
+			name = Debug;
+		};
+		A5F47466210D7E59008771E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RefreshChameleonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RavenZ.RefreshChameleonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RefreshChameleon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F4742D210D7E57008771E7 /* Build configuration list for PBXProject "RefreshChameleon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F4745C210D7E59008771E7 /* Debug */,
+				A5F4745D210D7E59008771E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F4745E210D7E59008771E7 /* Build configuration list for PBXNativeTarget "RefreshChameleon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F4745F210D7E59008771E7 /* Debug */,
+				A5F47460210D7E59008771E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F47461210D7E59008771E7 /* Build configuration list for PBXNativeTarget "RefreshChameleonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F47462210D7E59008771E7 /* Debug */,
+				A5F47463210D7E59008771E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F47464210D7E59008771E7 /* Build configuration list for PBXNativeTarget "RefreshChameleonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F47465210D7E59008771E7 /* Debug */,
+				A5F47466210D7E59008771E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F4742A210D7E57008771E7 /* Project object */;
+}
